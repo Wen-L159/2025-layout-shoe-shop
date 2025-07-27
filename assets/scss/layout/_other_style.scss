@@ -59,6 +59,20 @@
 .favoCrad{
     width: 120px;
 }
+    /* -----------登入頁---------- */
+.loginBgImage{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:12px;
+    height: 100%;
+}
+.loginZoneBgImage{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true);
+    border-radius:12px;
+}
+
     /* -----------footer---------- */
 .banner{
     background-color: var(--primary200);

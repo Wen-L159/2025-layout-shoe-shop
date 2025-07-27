@@ -143,6 +143,32 @@
         border-bottom: 1px solid var(--neutral600);
     }
 }
+.TransBorderBot-Btn{
+    background-color: transparent;
+    border-width: 2px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid var(--neutral300);
+    &:hover{
+        border-bottom: solid var(--neutral500);
+    }
+    &.trigger{
+        border-bottom: solid var(--neutral900);
+    }
+}
+.socialLogin-Btn{
+    border-radius: 4px;
+    background-color: var(--neutral000);
+    border: 1px solid var(--neutral300);
+    &:hover{
+        background-color: var(--neutral300);
+    }
+    &:active{
+        border: 1px solid var(--neutral600);
+        border-bottom: 1px solid var(--neutral900);
+    }
+}
     /* -----------麵包屑---------- */
 .breadcrumb+.breadcrumb::before{
     content: "/";
@@ -168,11 +194,17 @@
 .bdr-12{
     border-radius: 12px;
 }
+.bdr-4{
+    border-radius: 4px;
+}
 .bgc-p100{
     background-color: var(--primary100);
 }
 .bgc-p200{
     background-color: var(--primary200);
+}
+.bgc-n100{
+    background-color: var(--neutral100);
 }
 // -----icon----------
 .check-style{

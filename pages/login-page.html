@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入會員｜URBNSTEP</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <main class="container row-fix">
+      <div class="row f-box py-64 sm-d-blo sm-py-0 sm-px-0">
+        <section class="col-5 sm-col-4">
+          <div class="loginBgImage">  </div>
+        </section>
+        <section class="col-7  sm-col-4">
+          <div class="px-80 py-120 sm-py-32 sm-px-0 loginZoneBgImage">
+            <div>
+              <h1 class="ty-h3 sm-ty-h4 taCenter mb-32">歡迎！</h1>
+            </div>
+            <div class="f-box mb-32">
+              <button type="button" class="ty-h6 py-12 flex1 TransBorderBot-Btn trigger">登入</button>
+              <button type="button" class="ty-h6 py-12 flex1 TransBorderBot-Btn">註冊</button>
+            </div>
+            <ul class="f-box f-dc gap-8">
+              <li>
+                <button type="button" class="col-12 f-box f-aic gap-12 py-12 socialLogin-Btn">
+                  <div>
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/facebook.svg" alt="facebook">
+                  </div>
+                  <span>Facebook 登入</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="col-12 f-box f-aic gap-12 py-12 socialLogin-Btn">
+                  <div>
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/apple.svg" alt="apple">
+                  </div>
+                  <span>Apple 登入</span>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="col-12 f-box f-aic gap-12 py-12 socialLogin-Btn">
+                  <div>
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/google.svg" alt="google">
+                  </div>
+                  <span>Google 登入</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+    </main>
+    
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+ 
+</body>
+  
+</html>
