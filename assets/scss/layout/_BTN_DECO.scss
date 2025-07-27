@@ -1,0 +1,178 @@
+/*!-----------按鈕連結與裝飾---------------*/
+/* 品牌小故事 */
+.underline-L400link{
+    display: block;
+    padding: 8px 0;
+    color: var(--primary400);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    &:hover{
+    color: var(--primary300);
+}
+    &:active{
+    color: var(--primary500);
+}
+}
+
+/* 浮動標籤 */
+.badge-TL-P100{
+    position: absolute;
+    top: 0;left: 0;
+    padding: 8px 12px;
+    background-color: var(--primary100);
+    color: var(--primary400);
+}
+.badge-MID-fff{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: var(--neutral000);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+    /* -------種類清單-------- */
+.listSlec{
+    display: block;
+    padding: 12px 0;
+    color: var(--neutral900);
+}
+.listSlec:hover{
+    color: var(--primary400);
+}
+    /* --------翻頁按鈕-------- */
+.paginationBtn{
+    display: block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    &:Hover{
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--neutral100);
+    }
+}
+.paginationBtn.selected{
+    background-color: var(--primary300);
+    font-weight: 500;
+    font-size: 16px;
+}
+    /* -------------選擇顏色---------------- */
+.colorOption{
+    width: 64px;
+    cursor: pointer
+}
+.colorOption p{
+    text-align: center;
+    color: var(--neutral600);
+}
+.colorOption:hover img{
+    opacity: 0.8;
+}
+.colorOption.selected img{
+    border: 1px solid var(--neutral900);
+}
+.colorOption.selected p{
+    color:var(--neutral900);
+}
+    /* -------------選擇尺寸---------------- */
+.slecBtn{
+    width: 160px;
+    padding: 12px 24px;
+    border: 1px solid var(--neutral300);
+    background-color: var(--neutral000);
+    border-radius: 4px;
+    cursor: pointer
+}
+.slecBtn:hover{
+    border-color: var(--neutral600);
+}
+.slecBtn.selected{
+    border-color: var(--neutral900);
+}
+    /* -----------立即選購---------- */
+.BGCp300-Btn{
+    display: block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: var(--primary300);
+    border: 1px solid var(--neutral300);
+    color: var(--neutral900);
+    &:hover{
+        background-color: var(--primary200);
+        border: 1px solid var(--neutral200);
+    }
+    &:active{
+        background-color: var(--primary300);
+        border: 1px solid var(--neutral300);
+        border-bottom: 1px solid var(--primary200);
+    }
+}
+
+    /* -----------馬上註冊&商品說明頁的按鈕---------- */
+.BGCn900-Btn{
+    border-radius: 4px;
+    background-color: var(--neutral900);
+    color: var(--neutral000);
+    border: 1px solid var(--neutral900);
+    &:hover{
+        background-color: var(--neutral600);
+        border: 1px solid var(--neutral600);
+    }
+    &:active{
+        background-color: var(--neutral800);
+        border: 1px solid var(--neutral900);
+        border-bottom: 1px solid var(--neutral600);
+    }
+}
+.BGCn000-Btn{
+    border-radius: 4px;
+    background-color: var(--neutral000);
+    color: var(--neutral900);
+    border: 1px solid var(--neutral900);
+    &:hover{
+        background-color: var(--neutral900);
+        color: var(--neutral000);
+    }
+    &:active{
+        border: 1px solid var(--neutral900);
+        border-bottom: 1px solid var(--neutral600);
+    }
+}
+    /* -----------麵包屑---------- */
+.breadcrumb+.breadcrumb::before{
+    content: "/";
+    padding: 0 12px;
+    color: var(--neutral300);
+}
+/* 裝飾線條與背景 */
+.lst-disc{
+    list-style-type:disc;
+}
+.st-bdt{
+    border-top: 1px solid var(--neutral300);
+}
+.st-bdb{
+    border-bottom: 1px solid var(--neutral300);
+}
+.st-bdl{
+    border-left: 1px solid var(--neutral900);
+}
+.st-bdl3-n300{
+    border-left: 3px solid var(--neutral300);
+}
+.bdr-12{
+    border-radius: 12px;
+}
+.bgc-p100{
+    background-color: var(--primary100);
+}
+.bgc-p200{
+    background-color: var(--primary200);
+}
+
+

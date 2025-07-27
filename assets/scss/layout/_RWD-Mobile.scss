@@ -1,0 +1,269 @@
+    /* -----------通用樣式-排版---------- */
+@media (max-width:769px){
+    .sm-d-none{
+        display: none;
+    }
+    .sm-d-blo{
+        display: block;
+    }
+    .sm-d-f{
+        display: flex;
+    }
+    .sm-f-d-c{
+        flex-direction: column;
+    }
+    .sm-f-rowR{
+        flex-direction: row-reverse;
+    }
+    .sm-f-jcc{
+        justify-content: center;
+    }
+    .sm-f-ais{
+        align-items: start;
+    }
+    .sm-f-avs{
+        align-items: stretch;
+    }
+    .sm-f-none{
+        flex: none;
+    }
+    .sm-flex1{
+        flex: 1;
+    }
+    .row-fixm,.sm-row-fix{
+        padding-right: 8px;
+        padding-left: 8px;}
+    .row,.sm-row{
+        margin-right: -8px;
+        margin-left: -8px;}
+
+    [class*="sm-col-"]{
+        padding-right: 8px;
+        padding-left: 8px;}
+    .sm-col-1{
+        width: calc(100% / 4);}
+    .sm-col-2{
+        width: calc(100% / 4) *2;}
+    .sm-col-4{
+        width: 100%;}
+
+    .sm-gap-0{
+        gap: 0px;
+    }        
+    .sm-gap-4{
+        gap: 4px;
+    }
+    .sm-gap-8{
+        gap: 8px;
+    }
+    .sm-gap-12{
+        gap: 12px;
+    }
+    .sm-gap-16{
+        gap: 16px;
+    }
+    .sm-gap-24{
+        gap: 24px;
+    }    
+    .sm-gap-c-12{
+        column-gap: 12px;
+    }
+    .sm-gap-r-24{
+        gap: 24px 12px;
+    }
+    .sm-gap-r-12{
+        row-gap: 12px;
+    }
+}
+    /* -----------通用樣式-間隔---------- */
+@media (max-width:769px){
+    .sm-mb-40{
+        margin-bottom: 40px;
+    }
+    .sm-mb-32{
+        margin-bottom: 32px;
+    }
+    .sm-mb-24{
+        margin-bottom: 24px;
+    }
+    .sm-mb-16{
+        margin-bottom: 16px;
+    }
+    .sm-mb-12{
+        margin-bottom: 12px;
+    }
+    .sm-mb-8{
+        margin-bottom: 8px;
+    }
+    .sm-mb-4{
+        margin-bottom: 4px;
+    }
+    .sm-mr-0{
+        margin-right: 0;
+    }
+    .sm-p-24{
+        padding: 24px;
+    }
+    .sm-px-24{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .sm-px-16{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .sm-px-12{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .sm-py-64{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    
+    .sm-py-40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sm-py-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .sm-py-24{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .sm-py-16{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .sm-py-12{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .sm-py-8{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .sm-py-0{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .sm-pb-32{
+        padding-bottom: 32px;
+    }
+    .sm-pl-12{
+        padding-left: 12px;
+    }
+    .sm-pr-46{
+        padding-right: 46px;
+    }
+}
+    /* -----------通用樣式-文字---------- */
+@media (max-width:769px){
+    .sm-tal{
+        text-align: left;
+    }
+    .sm-ty-Display2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .sm-ty-h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .sm-ty-h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .sm-ty-h3{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .sm-ty-h4{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .sm-ty-h5 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .sm-ty-h6 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.2;
+}
+}
+    /* -----------個別區塊---------- */
+@media (max-width:769px){
+    /* -----------品牌故事---------- */
+    .brandHero{ 
+        padding: 87px 0;
+        background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+        background-color: rgba(0, 0, 0, 0.4); /* 黑色遮罩 */
+        background-blend-mode: multiply;
+    }
+        /* -----------首頁---------- */
+    .heroSection{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    padding: 155px 24px;
+    }
+    .saleBanner{
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+        .badge-star{
+            width: 48px;
+            position: absolute;
+            top: -32px;
+            left: -20px;
+        }
+        .badge-spak{
+            width: 76px;
+            position: absolute;
+            bottom: 40px;
+            right: -28px;
+        }
+    }
+    /* -----------商品清單---------- */
+    .productCard {
+        max-width: calc(50% - 12px);
+    }
+    /* -----------圖片滑動設定---------- */
+    .sm-d-content{
+        display: contents; //隔代教育:去掉親子html架構,留祖孫關係
+    }
+    .sm-f-nowrap{
+        flex-wrap: nowrap;
+    }
+    .sm-slide-row{
+        margin-right: -8px;
+        margin-left: -8px;
+    }
+    .sm-slide-XoverAUTO{
+        overflow-x: auto;
+    }
+    .sm-slide-col{
+        min-width: 316px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    //讓圖片滑動時顯示一整張
+    .sm-slide-betterP{
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    .sm-slide-betterC{
+        scroll-snap-align:center;
+    }
+}
+
+    // *{
+    //     outline: 1px solid salmon;
+    // }
+

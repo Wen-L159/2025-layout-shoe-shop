@@ -1,0 +1,85 @@
+/*!-----------容器設定---------------*/
+/* 區塊版面 */
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+/* -----------FLEX---------- */
+.f-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-dc{
+    flex-direction: column;
+}
+.f-jcsb{
+    justify-content: space-between;}
+.f-jcc{
+    justify-content: center;}
+.f-aic{
+    align-items: center;}
+.flex1{
+    flex: 1;
+}
+    
+/* -----------格線---------- */
+.row-fix{
+    padding-right: 12px;
+    padding-left: 12px;}
+.row{
+    margin-right: -12px;
+    margin-left: -12px;}
+
+[class*="col-"]{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-1{
+    width: calc(100% / 12);
+}
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+.col-12{
+    width: 100%;
+}
+.gap-8{
+    gap: 8px;
+}
+.gap-24{
+    gap: 24px;
+}
+.gap-c-24{
+    column-gap: 24px;
+}
+.gap-r-40{
+    row-gap: 40px;
+}
+.gap-r-48{
+    gap: 48px 24px;
+}

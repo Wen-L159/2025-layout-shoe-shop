@@ -1,0 +1,62 @@
+/*!-----------單一區塊設定---------------*/
+    /* -----------首頁---------- */
+.heroSection{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 289px 0;
+    padding-left: 200px;
+    >*{
+        word-break: break-word
+    }
+}
+.position-r{
+    position: relative;   
+}
+.saleBanner{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    .badge-star{
+        width: 48px;
+        position: absolute;
+        top: -32px;
+        left: calc(50% - (317px - 32px));
+    }
+    .badge-spak{
+        width: 76px;
+        position: absolute;
+        bottom: 32px;
+        right: calc(50% - (317px - 24px));
+    }
+}
+// -----------穿搭靈感-------------
+.boardCard-1{
+    width: calc(50% - 4px);
+}
+    /* -----------品牌故事---------- */
+.brandHero{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 151px 0;
+
+}
+    /* -----------商品列表---------- */
+.productCard {
+    max-width: 31%;
+}
+.productImageCard{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(50% - 4px);
+}
+    /* -----------footer---------- */
+.banner{
+    background-color: var(--primary200);
+    padding: 24px 0;
+}
