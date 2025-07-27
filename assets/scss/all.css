@@ -1,16 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-.header {
-  background: #69F0AE;
-  font-size: 64px;
-}
-
-.footer {
-  background: #69F0AE;
-  font-size: 64px;
-}
-
 Css reset html,
 body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -78,6 +68,10 @@ img {
   object-fit: cover;
 }
 
+a, button {
+  cursor: pointer;
+}
+
 /*--------------------------*/
 /*!-----------色彩設定---------------*/
 :root {
@@ -103,7 +97,6 @@ body {
   /* TW/Label/md */
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.05rem;
   color: var(--neutral900);
@@ -111,6 +104,10 @@ body {
 
 .taCenter {
   text-align: center;
+}
+
+.taRight {
+  text-align: right;
 }
 
 .ty-Display1 {
@@ -255,6 +252,10 @@ a, .tyc-n900 {
   margin-right: 24px;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mr-12 {
   margin-right: 12px;
 }
@@ -270,6 +271,11 @@ a, .tyc-n900 {
 .px-24 {
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .py-100 {
@@ -294,7 +300,8 @@ a, .tyc-n900 {
 }
 
 .py-16 {
-  padding: 16px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .py-12 {
@@ -318,10 +325,18 @@ a, .tyc-n900 {
   padding-bottom: 48px;
 }
 
+.pb-32 {
+  padding-bottom: 32px;
+}
+
 /*!-----------容器設定---------------*/
 /* 區塊版面 */
 .container {
   max-width: 1320px;
+  margin: 0 auto;
+}
+
+.m0-a {
   margin: 0 auto;
 }
 
@@ -415,12 +430,24 @@ a, .tyc-n900 {
   gap: 8px;
 }
 
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
 .gap-24 {
   gap: 24px;
 }
 
 .gap-c-24 {
   column-gap: 24px;
+}
+
+.gap-r-8 {
+  row-gap: 8px;
 }
 
 .gap-r-40 {
@@ -632,6 +659,19 @@ a, .tyc-n900 {
   background-color: var(--primary200);
 }
 
+.check-style {
+  font-size: 20px;
+  background-color: var(--primary300);
+  color: var(--primary500);
+  border-radius: 50%;
+  width: 32px;
+  text-align: center;
+}
+
+.bi.bi-truck {
+  font-size: 24px;
+}
+
 /*!-----------單一區塊設定---------------*/
 /* -----------首頁---------- */
 .heroSection {
@@ -692,6 +732,11 @@ a, .tyc-n900 {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: calc(50% - 4px);
+}
+
+/* -----------收藏頁---------- */
+.favoCrad {
+  width: 120px;
 }
 
 /* -----------footer---------- */
@@ -804,6 +849,9 @@ a, .tyc-n900 {
   .sm-mb-4 {
     margin-bottom: 4px;
   }
+  .sm-mr-8 {
+    margin-right: 8;
+  }
   .sm-mr-0 {
     margin-right: 0;
   }
@@ -866,6 +914,9 @@ a, .tyc-n900 {
 }
 /* -----------通用樣式-文字---------- */
 @media (max-width: 769px) {
+  .sm-texType-EN {
+    font-family: en;
+  }
   .sm-tal {
     text-align: left;
   }
@@ -903,6 +954,10 @@ a, .tyc-n900 {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
+  }
+  .sm-ty-sm {
+    font-weight: 400;
+    font-size: 14px;
   }
 }
 /* -----------個別區塊---------- */
@@ -966,6 +1021,6 @@ a, .tyc-n900 {
     scroll-snap-align: center;
   }
 }
-.index-title {
-  font-size: 100px;
+* {
+  outline: 1px solid salmon;
 }/*# sourceMappingURL=all.css.map */

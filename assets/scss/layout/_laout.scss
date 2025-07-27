@@ -38,6 +38,9 @@
 .mr-24{
     margin-right: 24px;
 }
+.mr-16{
+    margin-right: 16px;
+}
 .mr-12{
     margin-right: 12px;
 }
@@ -50,6 +53,10 @@
 .px-24{
     padding-left: 24px;
     padding-right: 24px;
+}
+.px-16{
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .py-100{
     padding-top: 100px;
@@ -68,7 +75,8 @@
     padding: 17px 0;
 }
 .py-16{
-    padding: 16px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .py-12{
     padding-top: 12px;
@@ -85,4 +93,7 @@
 }
 .pb-48{
     padding-bottom: 48px;
+}
+.pb-32{
+    padding-bottom: 32px;
 }
