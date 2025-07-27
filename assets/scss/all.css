@@ -1064,8 +1064,8 @@ a, .tyc-n900 {
     border-radius: 0;
     background-position: center;
     height: 240px;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: -12px;
+    margin-right: -12px;
   }
   .loginZoneBgImage {
     background-image: none;
@@ -1098,7 +1098,4 @@ a, .tyc-n900 {
   .sm-slide-betterC {
     scroll-snap-align: center;
   }
-}
-* {
-  outline: 1px solid salmon;
 }/*# sourceMappingURL=all.css.map */
